@@ -1,0 +1,611 @@
+/* =================================hambarger=========================== */
+@media screen and (max-width: 1024px) {
+
+    /* ===================== navbar ===================== */
+    .navbar .container .nav-menu ul li {
+        padding: 0 10px;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /* ===================== hamburger ===================== */
+    .navbar .container .hamburger {
+        display: inline;
+    }
+
+    .navbar .container .nav-menu ul {
+        display: block;
+        position: absolute;
+        top: 101px;
+        background: linear-gradient(rgb(222, 235, 224), rgb(178, 179, 178));
+        width: 100%;
+        left: 0;
+        text-align: center;
+        z-index: 100;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding: 15px 0;
+
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 16px;
+    }
+}
+
+/* ===============================================banner======================================= */
+@media screen and (max-width: 320px) {
+
+    .mySwiper .swiper-wrapper .slide-1,
+    slide-2,
+    slide-3,
+    slide-4 {
+        /* background-position: center center; */
+        /* background-size: 100% 100%; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* width: 100%; */
+        min-height: 500px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* ===========================================card======================= */
+@media screen and (max-width: 1400px) {
+    .whatwedo .container .row .col33 {
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .whatwedo .container .row .col33 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .whatwedo .container .row .col33 {
+        max-width: 50%;
+        flex: 0 0 50%;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .whatwedo .container .row .col33 {
+        max-width: 100%;
+        flex: 0 0 100%;
+
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+
+    .whatwedo .container .row .col33 {
+        max-width: 100%;
+        flex: 0 0 100%;
+
+    }
+}
+
+/* =====================================about================================================= */
+
+@media screen and (max-width: 1200px) {
+    .about .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .about .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about .container .row .col50 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    .about .container .row .col50 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+/* ===================================================paralex=================================================================================== */
+
+@media screen and (max-width: 576px) {
+    .paralex .container .row .col100 .paral h2 {
+        position: absolute;
+        left: 30px;
+        top: 200px;
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* ======================================plan============================================ */
+
+
+@media screen and (max-width: 1400px) {
+
+    .plan .container .row .col25 {
+        max-width: 25%;
+        flex: 0 0 25%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .plan .container .row .col25 {
+        max-width: 25%;
+        flex: 0 0 25%;
+        padding: 10px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card p {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h3 {
+        font-size: 35px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .plan .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        text-align: center;
+    }
+
+    .plan .container .row .col50 a {
+        margin: 100px;
+        padding: 10px 20px;
+    }
+
+    .plan .container .row .col25 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 10px;
+    }
+
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card p {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h3 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .plan .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        /* text-align: center; */
+    }
+
+    .plan .container .row .col50 a {
+        margin: 50px;
+        padding: 10px 20px;
+    }
+
+    .plan .container .row .col25 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        padding: 10px;
+    }
+
+
+
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card p {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h3 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .plan .container .row .col50 {
+        max-width: 50%;
+        flex: 0 0 50%;
+        /* text-align: center; */
+    }
+
+    .plan .container .row .col50 a {
+        margin: 5px;
+        padding: 5px 5px;
+    }
+
+    .plan .container .row .col25 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card p {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    .plan .container .row .serv-part2 .serv-card-layout .serv-card h3 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .plan .container .row .col50 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        /* text-align: center; */
+        padding: 10px;
+    }
+
+    .plan .container .row .col50 a {
+        margin: 10px;
+        padding: 5px 10px;
+    }
+
+    .plan .container .row .col25 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        /* padding: 10px; */
+    }
+}
+
+/* ================================news======================================= */
+@media screen and (max-width: 1400px) {
+    .news .container .row .col25{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 30px;
+    }
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .news .container .row .col25{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 30px;
+    }
+
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 992px) {
+    .news .container .row .col25{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        width: 100%;
+    }
+    .news .container .row .col25 .card-outside{
+        width: 100%;
+        }
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 28px;
+    }
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .news .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        
+    }
+
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 25px;
+    }
+
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 15px;
+    }
+   
+}
+
+@media screen and (max-width: 576px) {
+
+    .news .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 20px;
+    }
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+
+    .news .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+   
+    }
+    .news .container .row .col25 .card-outside .card h2{
+        font-size: 20px;
+    }
+    .news .container .row .col25 .card-outside .card p{
+        font-size: 15px;
+    }
+    
+}
+
+/* ===============================malling================================================ */
+@media screen and (max-width: 320px) {
+.mailing .container .row .col10{
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .mailing .container .row  input[type="email"]{
+    padding: 10px 50px;
+    margin-bottom: 30px;
+  }
+
+  .mailing .container .row  input[type="submit"]{
+    padding: 10px 40px;
+    margin-bottom: 30px;
+  } 
+}
+
+/* ==============================================follow============================================= */
+
+@media screen and (max-width: 1400px) {
+    .follow .container .row .col25{
+        max-width: 25%;
+        flex: 0 0 25%;
+      }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .follow .container .row .col25{
+        max-width: 25%;
+        flex: 0 0 25%;
+        
+      }
+      .follow .container .row .col25 .image img{
+          height: 250px;
+          width: 250px;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .follow .container .row .col25{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        
+      }
+
+      .follow .container .row .col25 .image img{
+        height: 250px;
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .follow .container .row .col25{
+        max-width: 33.33%;
+        flex: 0 0 33.33%;
+        
+      }
+
+      .follow .container .row .col25 .image img{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 576px) {
+    .follow .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        
+      }
+
+      .follow .container .row .col25 .image img{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .follow .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+      text-align: center;
+      }
+
+      .follow .container .row .col25 .image img{
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .follow .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+       
+      }
+      .follow .container .row .col25 .image img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+/* ===================================================footer=========================================== */
+@media screen and (max-width: 1400px){
+    .footer .container .row .col25{
+        max-width:25%;
+        flex: 0 0 25%;    
+      }
+     
+}
+
+@media screen and (max-width: 1200px){
+    .footer .container .row .col25{
+        max-width:25%;
+        flex: 0 0 25%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 18px;
+       }
+}
+
+@media screen and (max-width: 1024px){
+    .footer .container .row .col25{
+        max-width:25%;
+        flex: 0 0 25%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 15px;
+       }
+}
+
+@media screen and (max-width: 992px){
+    .footer .container .row .col25{
+        max-width:33.33%;
+        flex: 0 0 33.33%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 15px;
+       }
+}
+
+@media screen and (max-width: 768px){
+    .footer .container .row .col25{
+        max-width:50%;
+        flex: 0 0 50%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 15px;
+       }
+}
+
+@media screen and (max-width: 576px){
+    .footer .container .row .col25{
+        max-width:50%;
+        flex: 0 0 50%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 15px;
+       }
+}
+
+@media screen and (max-width: 450px){
+    .footer .container .row .col25{
+        max-width:100%;
+        flex: 0 0 100%;
+      }
+      .footer .container .row .col25 ul li a{
+    font-size: 15px;
+       }
+}
